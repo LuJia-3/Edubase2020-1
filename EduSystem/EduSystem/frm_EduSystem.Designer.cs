@@ -39,6 +39,15 @@
             this.btn_TestRegistration = new System.Windows.Forms.Button();
             this.btn_PracticalTraining = new System.Windows.Forms.Button();
             this.btn_TeachEvaluation = new System.Windows.Forms.Button();
+            this.txb_StudentNo = new System.Windows.Forms.TextBox();
+            this.txb_StudentName = new System.Windows.Forms.TextBox();
+            this.lab_Gender = new System.Windows.Forms.Label();
+            this.txb_Gender = new System.Windows.Forms.TextBox();
+            this.lab_Class = new System.Windows.Forms.Label();
+            this.lab_BirthDate = new System.Windows.Forms.Label();
+            this.txb_Class = new System.Windows.Forms.TextBox();
+            this.txb_BirthDate = new System.Windows.Forms.TextBox();
+            this.txb_Image = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // lab_StudentInfo
@@ -80,7 +89,7 @@
             // lab_Image
             // 
             this.lab_Image.AutoSize = true;
-            this.lab_Image.Location = new System.Drawing.Point(24, 175);
+            this.lab_Image.Location = new System.Drawing.Point(24, 332);
             this.lab_Image.Name = "lab_Image";
             this.lab_Image.Size = new System.Drawing.Size(37, 15);
             this.lab_Image.TabIndex = 5;
@@ -140,11 +149,89 @@
             this.btn_TeachEvaluation.Text = "教学评价";
             this.btn_TeachEvaluation.UseVisualStyleBackColor = true;
             // 
+            // txb_StudentNo
+            // 
+            this.txb_StudentNo.Location = new System.Drawing.Point(67, 68);
+            this.txb_StudentNo.Name = "txb_StudentNo";
+            this.txb_StudentNo.Size = new System.Drawing.Size(130, 25);
+            this.txb_StudentNo.TabIndex = 12;
+            // 
+            // txb_StudentName
+            // 
+            this.txb_StudentName.Location = new System.Drawing.Point(67, 120);
+            this.txb_StudentName.Name = "txb_StudentName";
+            this.txb_StudentName.Size = new System.Drawing.Size(130, 25);
+            this.txb_StudentName.TabIndex = 13;
+            // 
+            // lab_Gender
+            // 
+            this.lab_Gender.AutoSize = true;
+            this.lab_Gender.Location = new System.Drawing.Point(24, 179);
+            this.lab_Gender.Name = "lab_Gender";
+            this.lab_Gender.Size = new System.Drawing.Size(37, 15);
+            this.lab_Gender.TabIndex = 14;
+            this.lab_Gender.Text = "性别";
+            // 
+            // txb_Gender
+            // 
+            this.txb_Gender.Location = new System.Drawing.Point(67, 176);
+            this.txb_Gender.Name = "txb_Gender";
+            this.txb_Gender.Size = new System.Drawing.Size(130, 25);
+            this.txb_Gender.TabIndex = 15;
+            // 
+            // lab_Class
+            // 
+            this.lab_Class.AutoSize = true;
+            this.lab_Class.Location = new System.Drawing.Point(24, 233);
+            this.lab_Class.Name = "lab_Class";
+            this.lab_Class.Size = new System.Drawing.Size(37, 15);
+            this.lab_Class.TabIndex = 16;
+            this.lab_Class.Text = "班级";
+            // 
+            // lab_BirthDate
+            // 
+            this.lab_BirthDate.AutoSize = true;
+            this.lab_BirthDate.Location = new System.Drawing.Point(24, 282);
+            this.lab_BirthDate.Name = "lab_BirthDate";
+            this.lab_BirthDate.Size = new System.Drawing.Size(37, 15);
+            this.lab_BirthDate.TabIndex = 17;
+            this.lab_BirthDate.Text = "生日";
+            // 
+            // txb_Class
+            // 
+            this.txb_Class.Location = new System.Drawing.Point(67, 230);
+            this.txb_Class.Name = "txb_Class";
+            this.txb_Class.Size = new System.Drawing.Size(130, 25);
+            this.txb_Class.TabIndex = 18;
+            // 
+            // txb_BirthDate
+            // 
+            this.txb_BirthDate.Location = new System.Drawing.Point(67, 279);
+            this.txb_BirthDate.Name = "txb_BirthDate";
+            this.txb_BirthDate.Size = new System.Drawing.Size(130, 25);
+            this.txb_BirthDate.TabIndex = 19;
+            // 
+            // txb_Image
+            // 
+            this.txb_Image.Location = new System.Drawing.Point(67, 329);
+            this.txb_Image.Name = "txb_Image";
+            this.txb_Image.Size = new System.Drawing.Size(130, 25);
+            this.txb_Image.TabIndex = 20;
+            // 
             // frm_EduSystem
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.txb_Image);
+            this.Controls.Add(this.txb_BirthDate);
+            this.Controls.Add(this.txb_Class);
+            this.Controls.Add(this.lab_BirthDate);
+            this.Controls.Add(this.lab_Class);
+            this.Controls.Add(this.txb_Gender);
+            this.Controls.Add(this.lab_Gender);
+            this.Controls.Add(this.txb_StudentName);
+            this.Controls.Add(this.txb_StudentNo);
             this.Controls.Add(this.btn_TeachEvaluation);
             this.Controls.Add(this.btn_PracticalTraining);
             this.Controls.Add(this.btn_TestRegistration);
@@ -176,6 +263,15 @@
         private System.Windows.Forms.Button btn_TestRegistration;
         private System.Windows.Forms.Button btn_PracticalTraining;
         private System.Windows.Forms.Button btn_TeachEvaluation;
+        private System.Windows.Forms.TextBox txb_StudentNo;
+        private System.Windows.Forms.TextBox txb_StudentName;
+        private System.Windows.Forms.Label lab_Gender;
+        private System.Windows.Forms.TextBox txb_Gender;
+        private System.Windows.Forms.Label lab_Class;
+        private System.Windows.Forms.Label lab_BirthDate;
+        private System.Windows.Forms.TextBox txb_Class;
+        private System.Windows.Forms.TextBox txb_BirthDate;
+        private System.Windows.Forms.TextBox txb_Image;
     }
 }
 
