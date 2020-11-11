@@ -1,4 +1,4 @@
-﻿using 大二上数据库大作业.Edubase2020-1;
+﻿using ;
 using System;
 using System.Windows.Forms;
 
@@ -23,7 +23,7 @@ namespace SignUp
             int rowAffected = sqlHelper.QuickSubmit(commandText);
             if (rowAffected == 1)
             {
-                MessageBox.Show("注册成功。");
+                MessageBox.Show("注册成功!");
             }
             else
             {

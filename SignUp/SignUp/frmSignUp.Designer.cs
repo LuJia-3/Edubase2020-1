@@ -91,7 +91,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(404, 316);
+            this.ClientSize = new System.Drawing.Size(393, 300);
             this.Controls.Add(this.btn_SignUp);
             this.Controls.Add(this.lab_Tips);
             this.Controls.Add(this.txb_Password);
