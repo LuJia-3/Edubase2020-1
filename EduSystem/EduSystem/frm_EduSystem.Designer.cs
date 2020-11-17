@@ -155,6 +155,7 @@
             this.txb_StudentNo.Name = "txb_StudentNo";
             this.txb_StudentNo.Size = new System.Drawing.Size(130, 25);
             this.txb_StudentNo.TabIndex = 12;
+            this.txb_StudentNo.TextChanged += new System.EventHandler(this.txb_StudentNo_TextChanged);
             // 
             // txb_StudentName
             // 
@@ -162,6 +163,7 @@
             this.txb_StudentName.Name = "txb_StudentName";
             this.txb_StudentName.Size = new System.Drawing.Size(130, 25);
             this.txb_StudentName.TabIndex = 13;
+            this.txb_StudentName.TextChanged += new System.EventHandler(this.txb_StudentName_TextChanged);
             // 
             // lab_Gender
             // 
@@ -178,6 +180,7 @@
             this.txb_Gender.Name = "txb_Gender";
             this.txb_Gender.Size = new System.Drawing.Size(130, 25);
             this.txb_Gender.TabIndex = 15;
+            this.txb_Gender.TextChanged += new System.EventHandler(this.txb_Gender_TextChanged);
             // 
             // lab_Class
             // 
@@ -203,6 +206,7 @@
             this.txb_Class.Name = "txb_Class";
             this.txb_Class.Size = new System.Drawing.Size(130, 25);
             this.txb_Class.TabIndex = 18;
+            this.txb_Class.TextChanged += new System.EventHandler(this.txb_Class_TextChanged);
             // 
             // txb_BirthDate
             // 
@@ -210,6 +214,7 @@
             this.txb_BirthDate.Name = "txb_BirthDate";
             this.txb_BirthDate.Size = new System.Drawing.Size(130, 25);
             this.txb_BirthDate.TabIndex = 19;
+            this.txb_BirthDate.TextChanged += new System.EventHandler(this.txb_BirthDate_TextChanged);
             // 
             // txb_Image
             // 
@@ -217,6 +222,7 @@
             this.txb_Image.Name = "txb_Image";
             this.txb_Image.Size = new System.Drawing.Size(130, 25);
             this.txb_Image.TabIndex = 20;
+            this.txb_Image.TextChanged += new System.EventHandler(this.txb_Image_TextChanged);
             // 
             // frm_EduSystem
             // 

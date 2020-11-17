@@ -45,7 +45,7 @@
             // lab_Name
             // 
             this.lab_Name.AutoSize = true;
-            this.lab_Name.Location = new System.Drawing.Point(33, 47);
+            this.lab_Name.Location = new System.Drawing.Point(33, 99);
             this.lab_Name.Name = "lab_Name";
             this.lab_Name.Size = new System.Drawing.Size(37, 15);
             this.lab_Name.TabIndex = 0;
@@ -54,7 +54,7 @@
             // lab_StudentNo
             // 
             this.lab_StudentNo.AutoSize = true;
-            this.lab_StudentNo.Location = new System.Drawing.Point(33, 99);
+            this.lab_StudentNo.Location = new System.Drawing.Point(33, 47);
             this.lab_StudentNo.Name = "lab_StudentNo";
             this.lab_StudentNo.Size = new System.Drawing.Size(37, 15);
             this.lab_StudentNo.TabIndex = 1;
